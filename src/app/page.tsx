@@ -1,8 +1,10 @@
+import { TableDemo } from "@/components/table/table";
 
-export default function Home() {
+export default async function Home() {
+
   return (
-    <div>
-      <h2>Home</h2>
+    <div className="max-w-[1200px] mx-auto px-10 mt-20 ">
+      <TableDemo />
     </div>
   );
 }
